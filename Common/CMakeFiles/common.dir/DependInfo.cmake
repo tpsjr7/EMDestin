@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zhangzinan/destin_ted_temp/Destin/Common/DestinNetworkAlt.cpp" "/home/zhangzinan/destin_ted_temp/Destin/Common/CMakeFiles/common.dir/DestinNetworkAlt.cpp.o"
-  "/home/zhangzinan/destin_ted_temp/Destin/Common/VideoSource.cpp" "/home/zhangzinan/destin_ted_temp/Destin/Common/CMakeFiles/common.dir/VideoSource.cpp.o"
+  "/home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinNetworkAlt.cpp" "/home/opencog/Desktop/Min/EM-DeSTIN/Common/CMakeFiles/common.dir/DestinNetworkAlt.cpp.o"
+  "/home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.cpp" "/home/opencog/Desktop/Min/EM-DeSTIN/Common/CMakeFiles/common.dir/VideoSource.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

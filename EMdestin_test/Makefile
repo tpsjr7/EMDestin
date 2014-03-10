@@ -35,19 +35,22 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_SOURCE_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_BINARY_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running interactive CMake command-line interface..."
-	/usr/bin/cmake -i .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -66,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test/CMakeFiles/progress.marks
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/CMakeFiles/progress.marks
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/clean
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/clean
 .PHONY : clean
 
 # The main clean target
@@ -82,22 +85,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/preinstall
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/preinstall
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 EMdestin_test/CMakeFiles/stereovision.dir/rule:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/CMakeFiles/stereovision.dir/rule
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/CMakeFiles/stereovision.dir/rule
 .PHONY : EMdestin_test/CMakeFiles/stereovision.dir/rule
 
 # Convenience name for target.
@@ -106,12 +109,12 @@ stereovision: EMdestin_test/CMakeFiles/stereovision.dir/rule
 
 # fast build rule for target.
 stereovision/fast:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/build
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/build
 .PHONY : stereovision/fast
 
 # Convenience name for target.
 EMdestin_test/CMakeFiles/test2.dir/rule:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/CMakeFiles/test2.dir/rule
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/CMakeFiles/test2.dir/rule
 .PHONY : EMdestin_test/CMakeFiles/test2.dir/rule
 
 # Convenience name for target.
@@ -120,7 +123,7 @@ test2: EMdestin_test/CMakeFiles/test2.dir/rule
 
 # fast build rule for target.
 test2/fast:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/build
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/build
 .PHONY : test2/fast
 
 src/stereocamera.o: src/stereocamera.cpp.o
@@ -128,7 +131,7 @@ src/stereocamera.o: src/stereocamera.cpp.o
 
 # target to build an object file
 src/stereocamera.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.o
 .PHONY : src/stereocamera.cpp.o
 
 src/stereocamera.i: src/stereocamera.cpp.i
@@ -136,7 +139,7 @@ src/stereocamera.i: src/stereocamera.cpp.i
 
 # target to preprocess a source file
 src/stereocamera.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.i
 .PHONY : src/stereocamera.cpp.i
 
 src/stereocamera.s: src/stereocamera.cpp.s
@@ -144,7 +147,7 @@ src/stereocamera.s: src/stereocamera.cpp.s
 
 # target to generate assembly for a file
 src/stereocamera.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.s
 .PHONY : src/stereocamera.cpp.s
 
 src/stereovision.o: src/stereovision.cpp.o
@@ -152,7 +155,7 @@ src/stereovision.o: src/stereovision.cpp.o
 
 # target to build an object file
 src/stereovision.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.o
 .PHONY : src/stereovision.cpp.o
 
 src/stereovision.i: src/stereovision.cpp.i
@@ -160,7 +163,7 @@ src/stereovision.i: src/stereovision.cpp.i
 
 # target to preprocess a source file
 src/stereovision.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.i
 .PHONY : src/stereovision.cpp.i
 
 src/stereovision.s: src/stereovision.cpp.s
@@ -168,7 +171,7 @@ src/stereovision.s: src/stereovision.cpp.s
 
 # target to generate assembly for a file
 src/stereovision.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.s
 .PHONY : src/stereovision.cpp.s
 
 src/test2.o: src/test2.cpp.o
@@ -176,7 +179,7 @@ src/test2.o: src/test2.cpp.o
 
 # target to build an object file
 src/test2.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.o
 .PHONY : src/test2.cpp.o
 
 src/test2.i: src/test2.cpp.i
@@ -184,7 +187,7 @@ src/test2.i: src/test2.cpp.i
 
 # target to preprocess a source file
 src/test2.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.i
 .PHONY : src/test2.cpp.i
 
 src/test2.s: src/test2.cpp.s
@@ -192,7 +195,7 @@ src/test2.s: src/test2.cpp.s
 
 # target to generate assembly for a file
 src/test2.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.s
 .PHONY : src/test2.cpp.s
 
 # Help Target
@@ -225,6 +228,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

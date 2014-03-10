@@ -31,11 +31,14 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_SOURCE_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_BINARY_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 # Include any dependencies generated for this target.
 include EMdestin_test/CMakeFiles/stereovision.dir/depend.make
@@ -48,17 +51,17 @@ include EMdestin_test/CMakeFiles/stereovision.dir/flags.make
 
 EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.o: EMdestin_test/CMakeFiles/stereovision.dir/flags.make
 EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.o: EMdestin_test/src/stereovision.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.o"
-	cd /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stereovision.dir/src/stereovision.cpp.o -c /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test/src/stereovision.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stereovision.dir/src/stereovision.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereovision.cpp
 
 EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stereovision.dir/src/stereovision.cpp.i"
-	cd /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test/src/stereovision.cpp > CMakeFiles/stereovision.dir/src/stereovision.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereovision.cpp > CMakeFiles/stereovision.dir/src/stereovision.cpp.i
 
 EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stereovision.dir/src/stereovision.cpp.s"
-	cd /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test/src/stereovision.cpp -o CMakeFiles/stereovision.dir/src/stereovision.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereovision.cpp -o CMakeFiles/stereovision.dir/src/stereovision.cpp.s
 
 EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.o.requires:
 .PHONY : EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.o.requires
@@ -71,17 +74,17 @@ EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.o.provides.build:
 
 EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.o: EMdestin_test/CMakeFiles/stereovision.dir/flags.make
 EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.o: EMdestin_test/src/stereocamera.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.o"
-	cd /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stereovision.dir/src/stereocamera.cpp.o -c /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test/src/stereocamera.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stereovision.dir/src/stereocamera.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereocamera.cpp
 
 EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stereovision.dir/src/stereocamera.cpp.i"
-	cd /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test/src/stereocamera.cpp > CMakeFiles/stereovision.dir/src/stereocamera.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereocamera.cpp > CMakeFiles/stereovision.dir/src/stereocamera.cpp.i
 
 EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stereovision.dir/src/stereocamera.cpp.s"
-	cd /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test/src/stereocamera.cpp -o CMakeFiles/stereovision.dir/src/stereocamera.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereocamera.cpp -o CMakeFiles/stereovision.dir/src/stereocamera.cpp.s
 
 EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.o.requires:
 .PHONY : EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.o.requires
@@ -102,28 +105,10 @@ stereovision_EXTERNAL_OBJECTS =
 
 EMdestin_test/libstereovision.so: EMdestin_test/CMakeFiles/stereovision.dir/src/stereovision.cpp.o
 EMdestin_test/libstereovision.so: EMdestin_test/CMakeFiles/stereovision.dir/src/stereocamera.cpp.o
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_calib3d.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_contrib.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_core.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_features2d.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_flann.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_gpu.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_highgui.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_imgproc.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_legacy.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_ml.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_nonfree.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_objdetect.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_photo.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_stitching.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_superres.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_ts.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_video.so
-EMdestin_test/libstereovision.so: /usr/local/lib/libopencv_videostab.so
 EMdestin_test/libstereovision.so: EMdestin_test/CMakeFiles/stereovision.dir/build.make
 EMdestin_test/libstereovision.so: EMdestin_test/CMakeFiles/stereovision.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library libstereovision.so"
-	cd /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stereovision.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stereovision.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 EMdestin_test/CMakeFiles/stereovision.dir/build: EMdestin_test/libstereovision.so
@@ -134,10 +119,10 @@ EMdestin_test/CMakeFiles/stereovision.dir/requires: EMdestin_test/CMakeFiles/ste
 .PHONY : EMdestin_test/CMakeFiles/stereovision.dir/requires
 
 EMdestin_test/CMakeFiles/stereovision.dir/clean:
-	cd /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test && $(CMAKE_COMMAND) -P CMakeFiles/stereovision.dir/cmake_clean.cmake
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && $(CMAKE_COMMAND) -P CMakeFiles/stereovision.dir/cmake_clean.cmake
 .PHONY : EMdestin_test/CMakeFiles/stereovision.dir/clean
 
 EMdestin_test/CMakeFiles/stereovision.dir/depend:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhangzinan/destin_ted_temp/Destin /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test /home/zhangzinan/destin_ted_temp/Destin /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test /home/zhangzinan/destin_ted_temp/Destin/EMdestin_test/CMakeFiles/stereovision.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/opencog/Desktop/Min/EM-DeSTIN /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test /home/opencog/Desktop/Min/EM-DeSTIN /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/CMakeFiles/stereovision.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : EMdestin_test/CMakeFiles/stereovision.dir/depend
 

@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Destin" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\EMDestin\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\OpenCV\;CMake Files\Common\;CMake Files\SOM\;CMake Files\EMdestin_test\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="common">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/Common/libcommon.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/Common" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhangzinan/destin_ted_temp/Destin/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 common" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="common/fast">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/Common/libcommon.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/Common" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhangzinan/destin_ted_temp/Destin/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 common/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testCifarSource">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/Common/testCifarSource" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/Common" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhangzinan/destin_ted_temp/Destin/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 testCifarSource" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testCifarSource/fast">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/Common/testCifarSource" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/Common" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhangzinan/destin_ted_temp/Destin/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 testCifarSource/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testDestinNetworkAlt">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/Common/testDestinNetworkAlt" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/Common" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhangzinan/destin_ted_temp/Destin/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 testDestinNetworkAlt" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testDestinNetworkAlt/fast">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/Common/testDestinNetworkAlt" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/Common" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhangzinan/destin_ted_temp/Destin/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 testDestinNetworkAlt/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/Common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="destin">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/bin/destin" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 destin" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="destin/fast">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/bin/destin" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 destin/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="destinalt">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/libdestinalt.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 destinalt" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="destinalt/fast">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/libdestinalt.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 destinalt/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="destinalt_test">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/libdestinalt_test.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 destinalt_test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="destinalt_test/fast">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/libdestinalt_test.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 destinalt_test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test/fast">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 test/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="som">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/libsom.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/SOM" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 som" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="som/fast">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/libsom.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/SOM" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 som/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testSOM">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/testSOM" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/SOM" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 testSOM" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testSOM/fast">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/testSOM" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/SOM" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 testSOM/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/SOM/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stereovision">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/libstereovision.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../DavisDestin/include" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../SOM" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 stereovision" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stereovision/fast">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/libstereovision.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../DavisDestin/include" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../SOM" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 stereovision/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test2">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/test2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../DavisDestin/include" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../SOM" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 test2" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test2/fast">
+         <Option output="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/test2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../Common" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../DavisDestin/include" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../SOM" />
+            <Add directory="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 test2/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinNetworkAlt.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/TestCifar.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin_mnist.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereocamera.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereovision.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/test2.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/TestSom.cpp">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/cluster/src/cluster.c">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/BeliefExporter.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/CifarSource.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/CztMod.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinIterationFinishedCallback.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinNetworkAlt.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/INetwork.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/ImageSourceBase.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/ImageSourceImpl.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/Transporter.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/unit_test.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include/belief_transform.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include/cent_image_gen.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include/destin.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include/em.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include/learn_strats.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include/macros.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include/node.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include/stereocamera.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include/stereovision.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereocamera.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereovision.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/ClusterSom.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/ISom.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/SomPresentor.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/cluster/src/cluster.h">
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\EMDestin\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\EMDestin\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/Common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Common\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\SOM\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/SOM/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\SOM\" />
+      </Unit>
+      <Unit filename="/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\EMdestin_test\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

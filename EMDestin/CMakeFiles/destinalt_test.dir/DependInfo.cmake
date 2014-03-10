@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/src/belief_transform.cpp" "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o"
-  "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/src/cent_image_gen.cpp" "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o"
-  "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/src/destin.cpp" "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.o"
-  "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/src/em.cpp" "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.o"
-  "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/src/learn_strats.cpp" "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o"
-  "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/src/node.cpp" "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.o"
-  "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/src/util.cpp" "/home/zhangzinan/destin_ted_temp/Destin/EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.o"
+  "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp" "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o"
+  "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp" "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o"
+  "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp" "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.o"
+  "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp" "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.o"
+  "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp" "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o"
+  "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp" "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.o"
+  "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp" "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

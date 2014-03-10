@@ -1,4 +1,4 @@
-# Install script for directory: /home/zhangzinan/destin_ted_temp/Destin/EMDestin
+# Install script for directory: /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,0 +1,3 @@
+/home/opencog/Desktop/Min/EM-DeSTIN/Common/CMakeFiles/common.dir
+/home/opencog/Desktop/Min/EM-DeSTIN/Common/CMakeFiles/testCifarSource.dir
+/home/opencog/Desktop/Min/EM-DeSTIN/Common/CMakeFiles/testDestinNetworkAlt.dir

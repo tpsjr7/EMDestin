@@ -43,11 +43,14 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_SOURCE_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_BINARY_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 #=============================================================================
 # Directory level rules for directory Common
@@ -75,7 +78,7 @@ Common/preinstall:
 Common/CMakeFiles/common.dir/all:
 	$(MAKE) -f Common/CMakeFiles/common.dir/build.make Common/CMakeFiles/common.dir/depend
 	$(MAKE) -f Common/CMakeFiles/common.dir/build.make Common/CMakeFiles/common.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  1 2
 	@echo "Built target common"
 .PHONY : Common/CMakeFiles/common.dir/all
 
@@ -85,9 +88,9 @@ all: Common/CMakeFiles/common.dir/all
 
 # Build rule for subdir invocation for target.
 Common/CMakeFiles/common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 Common/CMakeFiles/common.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : Common/CMakeFiles/common.dir/rule
 
 # Convenience name for target.
@@ -110,7 +113,7 @@ clean: Common/CMakeFiles/common.dir/clean
 Common/CMakeFiles/testCifarSource.dir/all:
 	$(MAKE) -f Common/CMakeFiles/testCifarSource.dir/build.make Common/CMakeFiles/testCifarSource.dir/depend
 	$(MAKE) -f Common/CMakeFiles/testCifarSource.dir/build.make Common/CMakeFiles/testCifarSource.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles  23
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  23
 	@echo "Built target testCifarSource"
 .PHONY : Common/CMakeFiles/testCifarSource.dir/all
 
@@ -120,9 +123,9 @@ all: Common/CMakeFiles/testCifarSource.dir/all
 
 # Build rule for subdir invocation for target.
 Common/CMakeFiles/testCifarSource.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 Common/CMakeFiles/testCifarSource.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : Common/CMakeFiles/testCifarSource.dir/rule
 
 # Convenience name for target.
@@ -146,7 +149,7 @@ Common/CMakeFiles/testDestinNetworkAlt.dir/all: Common/CMakeFiles/common.dir/all
 Common/CMakeFiles/testDestinNetworkAlt.dir/all: EMDestin/CMakeFiles/destinalt.dir/all
 	$(MAKE) -f Common/CMakeFiles/testDestinNetworkAlt.dir/build.make Common/CMakeFiles/testDestinNetworkAlt.dir/depend
 	$(MAKE) -f Common/CMakeFiles/testDestinNetworkAlt.dir/build.make Common/CMakeFiles/testDestinNetworkAlt.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles  24
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  24
 	@echo "Built target testDestinNetworkAlt"
 .PHONY : Common/CMakeFiles/testDestinNetworkAlt.dir/all
 
@@ -156,9 +159,9 @@ all: Common/CMakeFiles/testDestinNetworkAlt.dir/all
 
 # Build rule for subdir invocation for target.
 Common/CMakeFiles/testDestinNetworkAlt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 Common/CMakeFiles/testDestinNetworkAlt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : Common/CMakeFiles/testDestinNetworkAlt.dir/rule
 
 # Convenience name for target.
@@ -202,7 +205,7 @@ EMDestin/preinstall:
 EMDestin/CMakeFiles/destin.dir/all: EMDestin/CMakeFiles/destinalt.dir/all
 	$(MAKE) -f EMDestin/CMakeFiles/destin.dir/build.make EMDestin/CMakeFiles/destin.dir/depend
 	$(MAKE) -f EMDestin/CMakeFiles/destin.dir/build.make EMDestin/CMakeFiles/destin.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  3
 	@echo "Built target destin"
 .PHONY : EMDestin/CMakeFiles/destin.dir/all
 
@@ -212,9 +215,9 @@ all: EMDestin/CMakeFiles/destin.dir/all
 
 # Build rule for subdir invocation for target.
 EMDestin/CMakeFiles/destin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/destin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : EMDestin/CMakeFiles/destin.dir/rule
 
 # Convenience name for target.
@@ -237,7 +240,7 @@ clean: EMDestin/CMakeFiles/destin.dir/clean
 EMDestin/CMakeFiles/destinalt.dir/all:
 	$(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/depend
 	$(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles  4 5 6 7 8 9 10
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  4 5 6 7 8 9 10
 	@echo "Built target destinalt"
 .PHONY : EMDestin/CMakeFiles/destinalt.dir/all
 
@@ -247,9 +250,9 @@ all: EMDestin/CMakeFiles/destinalt.dir/all
 
 # Build rule for subdir invocation for target.
 EMDestin/CMakeFiles/destinalt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/destinalt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : EMDestin/CMakeFiles/destinalt.dir/rule
 
 # Convenience name for target.
@@ -272,7 +275,7 @@ clean: EMDestin/CMakeFiles/destinalt.dir/clean
 EMDestin/CMakeFiles/destinalt_test.dir/all:
 	$(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/depend
 	$(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles  11 12 13 14 15 16 17
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  11 12 13 14 15 16 17
 	@echo "Built target destinalt_test"
 .PHONY : EMDestin/CMakeFiles/destinalt_test.dir/all
 
@@ -282,9 +285,9 @@ all: EMDestin/CMakeFiles/destinalt_test.dir/all
 
 # Build rule for subdir invocation for target.
 EMDestin/CMakeFiles/destinalt_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/destinalt_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : EMDestin/CMakeFiles/destinalt_test.dir/rule
 
 # Convenience name for target.
@@ -307,7 +310,7 @@ clean: EMDestin/CMakeFiles/destinalt_test.dir/clean
 EMDestin/CMakeFiles/test.dir/all: EMDestin/CMakeFiles/destinalt_test.dir/all
 	$(MAKE) -f EMDestin/CMakeFiles/test.dir/build.make EMDestin/CMakeFiles/test.dir/depend
 	$(MAKE) -f EMDestin/CMakeFiles/test.dir/build.make EMDestin/CMakeFiles/test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles  21
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  21
 	@echo "Built target test"
 .PHONY : EMDestin/CMakeFiles/test.dir/all
 
@@ -317,9 +320,9 @@ all: EMDestin/CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
 EMDestin/CMakeFiles/test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : EMDestin/CMakeFiles/test.dir/rule
 
 # Convenience name for target.
@@ -359,7 +362,7 @@ SOM/preinstall:
 SOM/CMakeFiles/som.dir/all:
 	$(MAKE) -f SOM/CMakeFiles/som.dir/build.make SOM/CMakeFiles/som.dir/depend
 	$(MAKE) -f SOM/CMakeFiles/som.dir/build.make SOM/CMakeFiles/som.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles  18
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  18
 	@echo "Built target som"
 .PHONY : SOM/CMakeFiles/som.dir/all
 
@@ -369,9 +372,9 @@ all: SOM/CMakeFiles/som.dir/all
 
 # Build rule for subdir invocation for target.
 SOM/CMakeFiles/som.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 SOM/CMakeFiles/som.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : SOM/CMakeFiles/som.dir/rule
 
 # Convenience name for target.
@@ -394,7 +397,7 @@ clean: SOM/CMakeFiles/som.dir/clean
 SOM/CMakeFiles/testSOM.dir/all: SOM/CMakeFiles/som.dir/all
 	$(MAKE) -f SOM/CMakeFiles/testSOM.dir/build.make SOM/CMakeFiles/testSOM.dir/depend
 	$(MAKE) -f SOM/CMakeFiles/testSOM.dir/build.make SOM/CMakeFiles/testSOM.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles  25
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  25
 	@echo "Built target testSOM"
 .PHONY : SOM/CMakeFiles/testSOM.dir/all
 
@@ -404,9 +407,9 @@ all: SOM/CMakeFiles/testSOM.dir/all
 
 # Build rule for subdir invocation for target.
 SOM/CMakeFiles/testSOM.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 SOM/CMakeFiles/testSOM.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : SOM/CMakeFiles/testSOM.dir/rule
 
 # Convenience name for target.
@@ -446,7 +449,7 @@ EMdestin_test/preinstall:
 EMdestin_test/CMakeFiles/stereovision.dir/all:
 	$(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/depend
 	$(MAKE) -f EMdestin_test/CMakeFiles/stereovision.dir/build.make EMdestin_test/CMakeFiles/stereovision.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles  19 20
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  19 20
 	@echo "Built target stereovision"
 .PHONY : EMdestin_test/CMakeFiles/stereovision.dir/all
 
@@ -456,9 +459,9 @@ all: EMdestin_test/CMakeFiles/stereovision.dir/all
 
 # Build rule for subdir invocation for target.
 EMdestin_test/CMakeFiles/stereovision.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/CMakeFiles/stereovision.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : EMdestin_test/CMakeFiles/stereovision.dir/rule
 
 # Convenience name for target.
@@ -478,13 +481,13 @@ clean: EMdestin_test/CMakeFiles/stereovision.dir/clean
 # Target rules for target EMdestin_test/CMakeFiles/test2.dir
 
 # All Build rule for target.
+EMdestin_test/CMakeFiles/test2.dir/all: EMdestin_test/CMakeFiles/stereovision.dir/all
+EMdestin_test/CMakeFiles/test2.dir/all: SOM/CMakeFiles/som.dir/all
 EMdestin_test/CMakeFiles/test2.dir/all: Common/CMakeFiles/common.dir/all
 EMdestin_test/CMakeFiles/test2.dir/all: EMDestin/CMakeFiles/destinalt.dir/all
-EMdestin_test/CMakeFiles/test2.dir/all: SOM/CMakeFiles/som.dir/all
-EMdestin_test/CMakeFiles/test2.dir/all: EMdestin_test/CMakeFiles/stereovision.dir/all
 	$(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/depend
 	$(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles  22
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  22
 	@echo "Built target test2"
 .PHONY : EMdestin_test/CMakeFiles/test2.dir/all
 
@@ -494,9 +497,9 @@ all: EMdestin_test/CMakeFiles/test2.dir/all
 
 # Build rule for subdir invocation for target.
 EMdestin_test/CMakeFiles/test2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 EMdestin_test/CMakeFiles/test2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : EMdestin_test/CMakeFiles/test2.dir/rule
 
 # Convenience name for target.

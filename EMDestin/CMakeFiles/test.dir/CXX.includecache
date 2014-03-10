@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zhangzinan/destin_ted_temp/Destin/EMDestin/test/test.cpp
+/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test.cpp
 float.h
 -
 memory.h
@@ -14,11 +14,11 @@ memory.h
 stdio.h
 -
 destin.h
-/home/zhangzinan/destin_ted_temp/Destin/EMDestin/test/destin.h
+/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/destin.h
 unit_test.h
-/home/zhangzinan/destin_ted_temp/Destin/EMDestin/test/unit_test.h
+/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/unit_test.h
 cent_image_gen.h
-/home/zhangzinan/destin_ted_temp/Destin/EMDestin/test/cent_image_gen.h
+/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/cent_image_gen.h
 
 EMDestin/../Common/unit_test.h
 stdbool.h

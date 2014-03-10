@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zhangzinan/destin_ted_temp/Destin/Common/TestCifar.cpp" "/home/zhangzinan/destin_ted_temp/Destin/Common/CMakeFiles/testCifarSource.dir/TestCifar.cpp.o"
+  "/home/opencog/Desktop/Min/EM-DeSTIN/Common/TestCifar.cpp" "/home/opencog/Desktop/Min/EM-DeSTIN/Common/CMakeFiles/testCifarSource.dir/TestCifar.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

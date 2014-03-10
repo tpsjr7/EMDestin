@@ -35,19 +35,22 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_SOURCE_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_BINARY_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running interactive CMake command-line interface..."
-	/usr/bin/cmake -i .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -66,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles /home/zhangzinan/destin_ted_temp/Destin/SOM/CMakeFiles/progress.marks
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 SOM/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles /home/opencog/Desktop/Min/EM-DeSTIN/SOM/CMakeFiles/progress.marks
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 SOM/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 SOM/clean
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 SOM/clean
 .PHONY : clean
 
 # The main clean target
@@ -82,22 +85,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 SOM/preinstall
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 SOM/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 SOM/preinstall
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 SOM/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 SOM/CMakeFiles/som.dir/rule:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 SOM/CMakeFiles/som.dir/rule
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 SOM/CMakeFiles/som.dir/rule
 .PHONY : SOM/CMakeFiles/som.dir/rule
 
 # Convenience name for target.
@@ -106,12 +109,12 @@ som: SOM/CMakeFiles/som.dir/rule
 
 # fast build rule for target.
 som/fast:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f SOM/CMakeFiles/som.dir/build.make SOM/CMakeFiles/som.dir/build
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f SOM/CMakeFiles/som.dir/build.make SOM/CMakeFiles/som.dir/build
 .PHONY : som/fast
 
 # Convenience name for target.
 SOM/CMakeFiles/testSOM.dir/rule:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 SOM/CMakeFiles/testSOM.dir/rule
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 SOM/CMakeFiles/testSOM.dir/rule
 .PHONY : SOM/CMakeFiles/testSOM.dir/rule
 
 # Convenience name for target.
@@ -120,7 +123,7 @@ testSOM: SOM/CMakeFiles/testSOM.dir/rule
 
 # fast build rule for target.
 testSOM/fast:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f SOM/CMakeFiles/testSOM.dir/build.make SOM/CMakeFiles/testSOM.dir/build
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f SOM/CMakeFiles/testSOM.dir/build.make SOM/CMakeFiles/testSOM.dir/build
 .PHONY : testSOM/fast
 
 TestSom.o: TestSom.cpp.o
@@ -128,7 +131,7 @@ TestSom.o: TestSom.cpp.o
 
 # target to build an object file
 TestSom.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f SOM/CMakeFiles/testSOM.dir/build.make SOM/CMakeFiles/testSOM.dir/TestSom.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f SOM/CMakeFiles/testSOM.dir/build.make SOM/CMakeFiles/testSOM.dir/TestSom.cpp.o
 .PHONY : TestSom.cpp.o
 
 TestSom.i: TestSom.cpp.i
@@ -136,7 +139,7 @@ TestSom.i: TestSom.cpp.i
 
 # target to preprocess a source file
 TestSom.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f SOM/CMakeFiles/testSOM.dir/build.make SOM/CMakeFiles/testSOM.dir/TestSom.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f SOM/CMakeFiles/testSOM.dir/build.make SOM/CMakeFiles/testSOM.dir/TestSom.cpp.i
 .PHONY : TestSom.cpp.i
 
 TestSom.s: TestSom.cpp.s
@@ -144,7 +147,7 @@ TestSom.s: TestSom.cpp.s
 
 # target to generate assembly for a file
 TestSom.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f SOM/CMakeFiles/testSOM.dir/build.make SOM/CMakeFiles/testSOM.dir/TestSom.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f SOM/CMakeFiles/testSOM.dir/build.make SOM/CMakeFiles/testSOM.dir/TestSom.cpp.s
 .PHONY : TestSom.cpp.s
 
 cluster/src/cluster.o: cluster/src/cluster.c.o
@@ -152,7 +155,7 @@ cluster/src/cluster.o: cluster/src/cluster.c.o
 
 # target to build an object file
 cluster/src/cluster.c.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f SOM/CMakeFiles/som.dir/build.make SOM/CMakeFiles/som.dir/cluster/src/cluster.c.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f SOM/CMakeFiles/som.dir/build.make SOM/CMakeFiles/som.dir/cluster/src/cluster.c.o
 .PHONY : cluster/src/cluster.c.o
 
 cluster/src/cluster.i: cluster/src/cluster.c.i
@@ -160,7 +163,7 @@ cluster/src/cluster.i: cluster/src/cluster.c.i
 
 # target to preprocess a source file
 cluster/src/cluster.c.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f SOM/CMakeFiles/som.dir/build.make SOM/CMakeFiles/som.dir/cluster/src/cluster.c.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f SOM/CMakeFiles/som.dir/build.make SOM/CMakeFiles/som.dir/cluster/src/cluster.c.i
 .PHONY : cluster/src/cluster.c.i
 
 cluster/src/cluster.s: cluster/src/cluster.c.s
@@ -168,7 +171,7 @@ cluster/src/cluster.s: cluster/src/cluster.c.s
 
 # target to generate assembly for a file
 cluster/src/cluster.c.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f SOM/CMakeFiles/som.dir/build.make SOM/CMakeFiles/som.dir/cluster/src/cluster.c.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f SOM/CMakeFiles/som.dir/build.make SOM/CMakeFiles/som.dir/cluster/src/cluster.c.s
 .PHONY : cluster/src/cluster.c.s
 
 # Help Target
@@ -198,6 +201,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

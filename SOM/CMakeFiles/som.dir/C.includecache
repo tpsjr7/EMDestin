@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zhangzinan/destin_ted_temp/Destin/SOM/cluster/src/cluster.c
+/home/opencog/Desktop/Min/EM-DeSTIN/SOM/cluster/src/cluster.c
 omp.h
 -
 time.h
@@ -22,11 +22,11 @@ limits.h
 string.h
 -
 cluster.h
-/home/zhangzinan/destin_ted_temp/Destin/SOM/cluster/src/cluster.h
+/home/opencog/Desktop/Min/EM-DeSTIN/SOM/cluster/src/cluster.h
 windows.h
 -
 
-/home/zhangzinan/destin_ted_temp/Destin/SOM/cluster/src/cluster.h
+/home/opencog/Desktop/Min/EM-DeSTIN/SOM/cluster/src/cluster.h
 windows.h
 -
 

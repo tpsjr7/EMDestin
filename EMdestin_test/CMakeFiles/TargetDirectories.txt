@@ -1,0 +1,2 @@
+/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/CMakeFiles/stereovision.dir
+/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/CMakeFiles/test2.dir

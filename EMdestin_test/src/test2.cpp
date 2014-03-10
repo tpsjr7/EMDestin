@@ -27,21 +27,21 @@ ImageSouceImpl isi;
 
 int main(int argc, char ** argv)
 {
-	for(int i=1;i<500;i++){
+    for(int i=1;i<5;i++){
 		char name[256];
-		sprintf(name, "/home/zhangzinan/handwrite_dataset/"NUMBER"/"NUMBER"/%d.png", i);
+		sprintf(name, "/home/opencog/Desktop/Min/0/0/%d.png", i);
 	 	isi.addImage(name);
 	}
 /*-----------------------------------------initialization-------------------------------------------------*/
     	SupportedImageWidths siw = W32;
     	uint centroid_counts[]  = {16,8,4,1};
-   	bool isUniform = true;
+    bool isUniform = true;
     	int size = 32*32;
     	//int extRatio = 1;
     	DestinNetworkAlt * network = new DestinNetworkAlt(siw, 4, centroid_counts, isUniform, 1);
 
     	int frameCount = 0; 
-	clock_t start,finish;
+    clock_t start,finish;
     	int maxCount =2000;
 /*----------------------------------------------training---------------------------------------*/
 #if 1
@@ -63,21 +63,21 @@ int main(int argc, char ** argv)
 	#endif
 /*-----------------------------------------------test---------------------------------------------------*/
   	//  Destin * dn = network->getNetwork();
-	for(int i=1;i<1000;i++){
+    for(int i=1;i<10;i++){
 		stringstream ss;
 		string str;
 		ss<<i+1;
 		ss>>str;
-		string name2="/home/zhangzinan/handwrite_dataset/"NUMBER"/"NUMBER"/"+str+".png";
+		string name2="/home/opencog/Desktop/Min/0/0/"+str+".png";
 		ImageSouceImpl test;
 		test.addImage(name2);
-		for(int i=0;i<10;i++)
+        for(int i=0;i<10;i++)
 		{	
 			test.findNextImage();
 			network->TestDestin(test.getGrayImageFloat());	
 		}
 		char name1[256];
-		sprintf(name1, "/home/zhangzinan/handwrite_dataset/"NUMBER"/"NUMBER"_destin_%d.txt", frameCount);
+        sprintf(name1, "/home/opencog/Desktop/Min/0/1/destin_%d.txt", frameCount);
 		ofstream outfile(name1,ofstream::out|ofstream::app);
 		if(!outfile)
 		{
@@ -112,7 +112,7 @@ int main(int argc, char ** argv)
 	outfile.close();
 		}
 	
-
+    printf("Here We come to the end \n");
 	return 0;
 
 }

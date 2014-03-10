@@ -35,19 +35,22 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_SOURCE_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_BINARY_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running interactive CMake command-line interface..."
-	/usr/bin/cmake -i .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -66,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles /home/zhangzinan/destin_ted_temp/Destin/EMDestin/CMakeFiles/progress.marks
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles 0
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/CMakeFiles/progress.marks
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/clean
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/clean
 .PHONY : clean
 
 # The main clean target
@@ -82,22 +85,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/preinstall
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/preinstall
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 EMDestin/CMakeFiles/destin.dir/rule:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/destin.dir/rule
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/destin.dir/rule
 .PHONY : EMDestin/CMakeFiles/destin.dir/rule
 
 # Convenience name for target.
@@ -106,12 +109,12 @@ destin: EMDestin/CMakeFiles/destin.dir/rule
 
 # fast build rule for target.
 destin/fast:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destin.dir/build.make EMDestin/CMakeFiles/destin.dir/build
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destin.dir/build.make EMDestin/CMakeFiles/destin.dir/build
 .PHONY : destin/fast
 
 # Convenience name for target.
 EMDestin/CMakeFiles/destinalt.dir/rule:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/destinalt.dir/rule
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/destinalt.dir/rule
 .PHONY : EMDestin/CMakeFiles/destinalt.dir/rule
 
 # Convenience name for target.
@@ -120,12 +123,12 @@ destinalt: EMDestin/CMakeFiles/destinalt.dir/rule
 
 # fast build rule for target.
 destinalt/fast:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/build
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/build
 .PHONY : destinalt/fast
 
 # Convenience name for target.
 EMDestin/CMakeFiles/destinalt_test.dir/rule:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/destinalt_test.dir/rule
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/destinalt_test.dir/rule
 .PHONY : EMDestin/CMakeFiles/destinalt_test.dir/rule
 
 # Convenience name for target.
@@ -134,12 +137,12 @@ destinalt_test: EMDestin/CMakeFiles/destinalt_test.dir/rule
 
 # fast build rule for target.
 destinalt_test/fast:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/build
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/build
 .PHONY : destinalt_test/fast
 
 # Convenience name for target.
 EMDestin/CMakeFiles/test.dir/rule:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/test.dir/rule
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f CMakeFiles/Makefile2 EMDestin/CMakeFiles/test.dir/rule
 .PHONY : EMDestin/CMakeFiles/test.dir/rule
 
 # Convenience name for target.
@@ -148,7 +151,7 @@ test: EMDestin/CMakeFiles/test.dir/rule
 
 # fast build rule for target.
 test/fast:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/test.dir/build.make EMDestin/CMakeFiles/test.dir/build
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/test.dir/build.make EMDestin/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
 src/belief_transform.o: src/belief_transform.cpp.o
@@ -156,8 +159,8 @@ src/belief_transform.o: src/belief_transform.cpp.o
 
 # target to build an object file
 src/belief_transform.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/belief_transform.cpp.o
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/belief_transform.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o
 .PHONY : src/belief_transform.cpp.o
 
 src/belief_transform.i: src/belief_transform.cpp.i
@@ -165,8 +168,8 @@ src/belief_transform.i: src/belief_transform.cpp.i
 
 # target to preprocess a source file
 src/belief_transform.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/belief_transform.cpp.i
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/belief_transform.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.i
 .PHONY : src/belief_transform.cpp.i
 
 src/belief_transform.s: src/belief_transform.cpp.s
@@ -174,8 +177,8 @@ src/belief_transform.s: src/belief_transform.cpp.s
 
 # target to generate assembly for a file
 src/belief_transform.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/belief_transform.cpp.s
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/belief_transform.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.s
 .PHONY : src/belief_transform.cpp.s
 
 src/cent_image_gen.o: src/cent_image_gen.cpp.o
@@ -183,8 +186,8 @@ src/cent_image_gen.o: src/cent_image_gen.cpp.o
 
 # target to build an object file
 src/cent_image_gen.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/cent_image_gen.cpp.o
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/cent_image_gen.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o
 .PHONY : src/cent_image_gen.cpp.o
 
 src/cent_image_gen.i: src/cent_image_gen.cpp.i
@@ -192,8 +195,8 @@ src/cent_image_gen.i: src/cent_image_gen.cpp.i
 
 # target to preprocess a source file
 src/cent_image_gen.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/cent_image_gen.cpp.i
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/cent_image_gen.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.i
 .PHONY : src/cent_image_gen.cpp.i
 
 src/cent_image_gen.s: src/cent_image_gen.cpp.s
@@ -201,8 +204,8 @@ src/cent_image_gen.s: src/cent_image_gen.cpp.s
 
 # target to generate assembly for a file
 src/cent_image_gen.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/cent_image_gen.cpp.s
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/cent_image_gen.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.s
 .PHONY : src/cent_image_gen.cpp.s
 
 src/destin.o: src/destin.cpp.o
@@ -210,8 +213,8 @@ src/destin.o: src/destin.cpp.o
 
 # target to build an object file
 src/destin.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/destin.cpp.o
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/destin.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.o
 .PHONY : src/destin.cpp.o
 
 src/destin.i: src/destin.cpp.i
@@ -219,8 +222,8 @@ src/destin.i: src/destin.cpp.i
 
 # target to preprocess a source file
 src/destin.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/destin.cpp.i
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/destin.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.i
 .PHONY : src/destin.cpp.i
 
 src/destin.s: src/destin.cpp.s
@@ -228,8 +231,8 @@ src/destin.s: src/destin.cpp.s
 
 # target to generate assembly for a file
 src/destin.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/destin.cpp.s
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/destin.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.s
 .PHONY : src/destin.cpp.s
 
 src/destin_mnist.o: src/destin_mnist.cpp.o
@@ -237,7 +240,7 @@ src/destin_mnist.o: src/destin_mnist.cpp.o
 
 # target to build an object file
 src/destin_mnist.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destin.dir/build.make EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destin.dir/build.make EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.o
 .PHONY : src/destin_mnist.cpp.o
 
 src/destin_mnist.i: src/destin_mnist.cpp.i
@@ -245,7 +248,7 @@ src/destin_mnist.i: src/destin_mnist.cpp.i
 
 # target to preprocess a source file
 src/destin_mnist.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destin.dir/build.make EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destin.dir/build.make EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.i
 .PHONY : src/destin_mnist.cpp.i
 
 src/destin_mnist.s: src/destin_mnist.cpp.s
@@ -253,7 +256,7 @@ src/destin_mnist.s: src/destin_mnist.cpp.s
 
 # target to generate assembly for a file
 src/destin_mnist.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destin.dir/build.make EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destin.dir/build.make EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.s
 .PHONY : src/destin_mnist.cpp.s
 
 src/em.o: src/em.cpp.o
@@ -261,8 +264,8 @@ src/em.o: src/em.cpp.o
 
 # target to build an object file
 src/em.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/em.cpp.o
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/em.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.o
 .PHONY : src/em.cpp.o
 
 src/em.i: src/em.cpp.i
@@ -270,8 +273,8 @@ src/em.i: src/em.cpp.i
 
 # target to preprocess a source file
 src/em.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/em.cpp.i
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/em.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.i
 .PHONY : src/em.cpp.i
 
 src/em.s: src/em.cpp.s
@@ -279,8 +282,8 @@ src/em.s: src/em.cpp.s
 
 # target to generate assembly for a file
 src/em.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/em.cpp.s
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/em.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.s
 .PHONY : src/em.cpp.s
 
 src/learn_strats.o: src/learn_strats.cpp.o
@@ -288,8 +291,8 @@ src/learn_strats.o: src/learn_strats.cpp.o
 
 # target to build an object file
 src/learn_strats.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/learn_strats.cpp.o
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/learn_strats.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o
 .PHONY : src/learn_strats.cpp.o
 
 src/learn_strats.i: src/learn_strats.cpp.i
@@ -297,8 +300,8 @@ src/learn_strats.i: src/learn_strats.cpp.i
 
 # target to preprocess a source file
 src/learn_strats.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/learn_strats.cpp.i
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/learn_strats.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.i
 .PHONY : src/learn_strats.cpp.i
 
 src/learn_strats.s: src/learn_strats.cpp.s
@@ -306,8 +309,8 @@ src/learn_strats.s: src/learn_strats.cpp.s
 
 # target to generate assembly for a file
 src/learn_strats.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/learn_strats.cpp.s
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/learn_strats.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.s
 .PHONY : src/learn_strats.cpp.s
 
 src/node.o: src/node.cpp.o
@@ -315,8 +318,8 @@ src/node.o: src/node.cpp.o
 
 # target to build an object file
 src/node.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/node.cpp.o
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/node.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.o
 .PHONY : src/node.cpp.o
 
 src/node.i: src/node.cpp.i
@@ -324,8 +327,8 @@ src/node.i: src/node.cpp.i
 
 # target to preprocess a source file
 src/node.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/node.cpp.i
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/node.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.i
 .PHONY : src/node.cpp.i
 
 src/node.s: src/node.cpp.s
@@ -333,8 +336,8 @@ src/node.s: src/node.cpp.s
 
 # target to generate assembly for a file
 src/node.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/node.cpp.s
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/node.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.s
 .PHONY : src/node.cpp.s
 
 src/util.o: src/util.cpp.o
@@ -342,8 +345,8 @@ src/util.o: src/util.cpp.o
 
 # target to build an object file
 src/util.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/util.cpp.o
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/util.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.o
 .PHONY : src/util.cpp.o
 
 src/util.i: src/util.cpp.i
@@ -351,8 +354,8 @@ src/util.i: src/util.cpp.i
 
 # target to preprocess a source file
 src/util.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/util.cpp.i
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/util.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.i
 .PHONY : src/util.cpp.i
 
 src/util.s: src/util.cpp.s
@@ -360,8 +363,8 @@ src/util.s: src/util.cpp.s
 
 # target to generate assembly for a file
 src/util.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/util.cpp.s
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt.dir/build.make EMDestin/CMakeFiles/destinalt.dir/src/util.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/destinalt_test.dir/build.make EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.s
 .PHONY : src/util.cpp.s
 
 test/test.o: test/test.cpp.o
@@ -369,7 +372,7 @@ test/test.o: test/test.cpp.o
 
 # target to build an object file
 test/test.cpp.o:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/test.dir/build.make EMDestin/CMakeFiles/test.dir/test/test.cpp.o
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/test.dir/build.make EMDestin/CMakeFiles/test.dir/test/test.cpp.o
 .PHONY : test/test.cpp.o
 
 test/test.i: test/test.cpp.i
@@ -377,7 +380,7 @@ test/test.i: test/test.cpp.i
 
 # target to preprocess a source file
 test/test.cpp.i:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/test.dir/build.make EMDestin/CMakeFiles/test.dir/test/test.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/test.dir/build.make EMDestin/CMakeFiles/test.dir/test/test.cpp.i
 .PHONY : test/test.cpp.i
 
 test/test.s: test/test.cpp.s
@@ -385,7 +388,7 @@ test/test.s: test/test.cpp.s
 
 # target to generate assembly for a file
 test/test.cpp.s:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(MAKE) -f EMDestin/CMakeFiles/test.dir/build.make EMDestin/CMakeFiles/test.dir/test/test.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(MAKE) -f EMDestin/CMakeFiles/test.dir/build.make EMDestin/CMakeFiles/test.dir/test/test.cpp.s
 .PHONY : test/test.cpp.s
 
 # Help Target
@@ -438,6 +441,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

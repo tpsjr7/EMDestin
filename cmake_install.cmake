@@ -1,4 +1,4 @@
-# Install script for directory: /home/zhangzinan/destin_ted_temp/Destin
+# Install script for directory: /home/opencog/Desktop/Min/EM-DeSTIN
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/zhangzinan/destin_ted_temp/Destin/Common/cmake_install.cmake")
-  INCLUDE("/home/zhangzinan/destin_ted_temp/Destin/EMDestin/cmake_install.cmake")
-  INCLUDE("/home/zhangzinan/destin_ted_temp/Destin/SOM/cmake_install.cmake")
-  INCLUDE("/home/zhangzinan/destin_ted_temp/Destin/EMdestin_test/cmake_install.cmake")
+  INCLUDE("/home/opencog/Desktop/Min/EM-DeSTIN/Common/cmake_install.cmake")
+  INCLUDE("/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/cmake_install.cmake")
+  INCLUDE("/home/opencog/Desktop/Min/EM-DeSTIN/SOM/cmake_install.cmake")
+  INCLUDE("/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -47,7 +47,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/zhangzinan/destin_ted_temp/Destin/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/opencog/Desktop/Min/EM-DeSTIN/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/zhangzinan/destin_ted_temp/Destin/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/opencog/Desktop/Min/EM-DeSTIN/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

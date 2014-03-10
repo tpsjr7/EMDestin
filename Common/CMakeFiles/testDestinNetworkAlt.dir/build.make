@@ -31,11 +31,14 @@ CMAKE_COMMAND = /usr/bin/cmake
 # The command to remove a file.
 RM = /usr/bin/cmake -E remove -f
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_SOURCE_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhangzinan/destin_ted_temp/Destin
+CMAKE_BINARY_DIR = /home/opencog/Desktop/Min/EM-DeSTIN
 
 # Include any dependencies generated for this target.
 include Common/CMakeFiles/testDestinNetworkAlt.dir/depend.make
@@ -48,17 +51,17 @@ include Common/CMakeFiles/testDestinNetworkAlt.dir/flags.make
 
 Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o: Common/CMakeFiles/testDestinNetworkAlt.dir/flags.make
 Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o: Common/TestDestinNetworkAlt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhangzinan/destin_ted_temp/Destin/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o"
-	cd /home/zhangzinan/destin_ted_temp/Destin/Common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o -c /home/zhangzinan/destin_ted_temp/Destin/Common/TestDestinNetworkAlt.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp
 
 Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.i"
-	cd /home/zhangzinan/destin_ted_temp/Destin/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zhangzinan/destin_ted_temp/Destin/Common/TestDestinNetworkAlt.cpp > CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp > CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.i
 
 Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.s"
-	cd /home/zhangzinan/destin_ted_temp/Destin/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zhangzinan/destin_ted_temp/Destin/Common/TestDestinNetworkAlt.cpp -o CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp -o CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.s
 
 Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o.requires:
 .PHONY : Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o.requires
@@ -79,28 +82,10 @@ testDestinNetworkAlt_EXTERNAL_OBJECTS =
 Common/testDestinNetworkAlt: Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o
 Common/testDestinNetworkAlt: Common/libcommon.so
 Common/testDestinNetworkAlt: EMDestin/libdestinalt.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_calib3d.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_contrib.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_core.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_features2d.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_flann.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_gpu.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_highgui.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_imgproc.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_legacy.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_ml.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_nonfree.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_objdetect.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_photo.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_stitching.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_superres.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_ts.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_video.so
-Common/testDestinNetworkAlt: /usr/local/lib/libopencv_videostab.so
 Common/testDestinNetworkAlt: Common/CMakeFiles/testDestinNetworkAlt.dir/build.make
 Common/testDestinNetworkAlt: Common/CMakeFiles/testDestinNetworkAlt.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable testDestinNetworkAlt"
-	cd /home/zhangzinan/destin_ted_temp/Destin/Common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testDestinNetworkAlt.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testDestinNetworkAlt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Common/CMakeFiles/testDestinNetworkAlt.dir/build: Common/testDestinNetworkAlt
@@ -110,10 +95,10 @@ Common/CMakeFiles/testDestinNetworkAlt.dir/requires: Common/CMakeFiles/testDesti
 .PHONY : Common/CMakeFiles/testDestinNetworkAlt.dir/requires
 
 Common/CMakeFiles/testDestinNetworkAlt.dir/clean:
-	cd /home/zhangzinan/destin_ted_temp/Destin/Common && $(CMAKE_COMMAND) -P CMakeFiles/testDestinNetworkAlt.dir/cmake_clean.cmake
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && $(CMAKE_COMMAND) -P CMakeFiles/testDestinNetworkAlt.dir/cmake_clean.cmake
 .PHONY : Common/CMakeFiles/testDestinNetworkAlt.dir/clean
 
 Common/CMakeFiles/testDestinNetworkAlt.dir/depend:
-	cd /home/zhangzinan/destin_ted_temp/Destin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhangzinan/destin_ted_temp/Destin /home/zhangzinan/destin_ted_temp/Destin/Common /home/zhangzinan/destin_ted_temp/Destin /home/zhangzinan/destin_ted_temp/Destin/Common /home/zhangzinan/destin_ted_temp/Destin/Common/CMakeFiles/testDestinNetworkAlt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/opencog/Desktop/Min/EM-DeSTIN && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/opencog/Desktop/Min/EM-DeSTIN /home/opencog/Desktop/Min/EM-DeSTIN/Common /home/opencog/Desktop/Min/EM-DeSTIN /home/opencog/Desktop/Min/EM-DeSTIN/Common /home/opencog/Desktop/Min/EM-DeSTIN/Common/CMakeFiles/testDestinNetworkAlt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Common/CMakeFiles/testDestinNetworkAlt.dir/depend
 

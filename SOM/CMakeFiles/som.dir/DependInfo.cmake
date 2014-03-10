@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/zhangzinan/destin_ted_temp/Destin/SOM/cluster/src/cluster.c" "/home/zhangzinan/destin_ted_temp/Destin/SOM/CMakeFiles/som.dir/cluster/src/cluster.c.o"
+  "/home/opencog/Desktop/Min/EM-DeSTIN/SOM/cluster/src/cluster.c" "/home/opencog/Desktop/Min/EM-DeSTIN/SOM/CMakeFiles/som.dir/cluster/src/cluster.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 
