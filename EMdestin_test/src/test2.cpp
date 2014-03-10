@@ -41,10 +41,12 @@ int main(int argc, char ** argv)
         //int extRatio = 1;
         DestinNetworkAlt * dn = new DestinNetworkAlt(siw, numLayers, centroid_counts, isUniform, 1);
         string CifarDir="/Downloads/cifar-10-batches-bin";
-        int batch=1;
+        int TrainBatch=1;
+        int TestBatch=2;
         int frameCount = 0;
         //clock_t start,finish;
-        cs=CifarSource(CifarDir,batch);
+        csTrain=CifarSource(CifarDir,TrainBatch);
+        csTest=CifarSource(CifarDir,TestBatch);
         dn.setParentBeliefDamping(0);
         dn.setPreviousBeliefDamping(0);
         int maxCount =10000;
