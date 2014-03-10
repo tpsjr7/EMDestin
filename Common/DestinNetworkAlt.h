@@ -179,7 +179,9 @@ public:
     Destin * getNetwork(){
         return destin;
     }
-
+    //void getLayerBeliefs(int layer, float * beliefs){
+      //  GetLayerBeliefs(destin, layer, beliefs);
+    //}
     /** Print given node's centroid's locations.
      *  The Centroids consists of 3 main parts, the dimensions which cluster
      *  on the nodes input, the dimensions which cluster on its previous belief

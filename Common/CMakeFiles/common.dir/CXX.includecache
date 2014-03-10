@@ -46,22 +46,6 @@ DestinIterationFinishedCallback.h
 stdio.h
 -
 
-/home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.cpp
-VideoSource.h
-/home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.h
-iostream
--
-
-/home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.h
-stdexcept
--
-opencv/cv.h
-/home/opencog/Desktop/Min/EM-DeSTIN/Common/opencv/cv.h
-opencv/highgui.h
-/home/opencog/Desktop/Min/EM-DeSTIN/Common/opencv/highgui.h
-libavutil/log.h
--
-
 /home/opencog/Desktop/Min/EM-DeSTIN/Common/belief_transform.h
 
 /home/opencog/Desktop/Min/EM-DeSTIN/Common/cent_image_gen.h

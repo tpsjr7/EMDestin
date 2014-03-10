@@ -13,7 +13,7 @@
 #include "stereocamera.h"
 #include "ImageSourceImpl.h"
 #include "CztMod.h"
-
+#include "BeliefExporter.h"
 #include "SomPresentor.h"
 #include "ClusterSom.h"
 #include <stdlib.h>
@@ -27,97 +27,86 @@ ImageSouceImpl isi;
 
 int main(int argc, char ** argv)
 {
-    for(int i=1;i<5;i++){
+ /*   for(int i=1;i<5;i++){
         char name[256];
         sprintf(name, "/home/opencog/Desktop/Min/0/0/%d.png", i);
         isi.addImage(name);
-    }
+   } */
 /*-----------------------------------------initialization-------------------------------------------------*/
-        SupportedImageWidths siw = W32;
         uint centroid_counts[]  = {16,8,4,1};
         uint numLayers=4;
         bool isUniform = true;
         int size = 32*32;
+        SupportedImageWidths siw= W32;
         //int extRatio = 1;
-        DestinNetworkAlt * dn = new DestinNetworkAlt(siw, numLayers, centroid_counts, isUniform, 1);
-        string CifarDir="/Downloads/cifar-10-batches-bin";
+        DestinNetworkAlt dn(siw, numLayers, centroid_counts, isUniform, 1);
+        string CifarDir="/home/opencog/Downloads/cifar-10-batches-bin";
+        // string CifarDir="/Downloads/cifar-10-batches-bin";
         int TrainBatch=1;
         int TestBatch=2;
         int frameCount = 0;
         //clock_t start,finish;
-        csTrain=CifarSource(CifarDir,TrainBatch);
-        csTest=CifarSource(CifarDir,TestBatch);
+        CifarSource csTrain(CifarDir,TrainBatch);
+        CifarSource csTest(CifarDir,TestBatch);
         dn.setParentBeliefDamping(0);
         dn.setPreviousBeliefDamping(0);
         int maxCount =10000;
-/*----------------------------------------------training---------------------------------------*/
-#if 1
-    Node * n = network->getNode(2, 0, 0);
-        while(frameCount < maxCount){
-            frameCount++;
-             isi.findNextImage();
-        network->doDestin(isi.getGrayImageFloat());
-        if(frameCount%10==0){
-        printf("frameCount%d\n",frameCount);
+        int bottom_belief_layer=0;
 
+/*----------------------------------------------training---------------------------------------*/
+    BeliefExporter be(dn,bottom_belief_layer);
+    int iterations_per_image=8;
+    //int layers=4;
+    bool isEnabled=true;
+    csTrain.disableAllClasses();
+    csTrain.setClassIsEnabled(0,isEnabled);
+    csTrain.setClassIsEnabled(1,isEnabled);
+    csTrain.setClassIsEnabled(2,isEnabled);
+    csTrain.setClassIsEnabled(3,isEnabled);
+    csTrain.setClassIsEnabled(4,isEnabled);
+    csTrain.setClassIsEnabled(5,isEnabled);
+    csTrain.setClassIsEnabled(6,isEnabled);
+    csTrain.setClassIsEnabled(7,isEnabled);
+    csTrain.setClassIsEnabled(8,isEnabled);
+    csTrain.setClassIsEnabled(9,isEnabled);
+   // csTrain.setClassIsEnabled();
+   // csTest.setClassIsEnabled();
+    //for(int i=0;i<maxCount;++i){
+    for(int i=0;i<maxCount;++i){
+        if (i%100==0){
+            printf("Iteration Number %d \n",i);
         }
+        csTrain.findNextImage();
+        dn.clearBeliefs();
+        for(int j=0;j<numLayers;++j){
+            dn.setLayerIsTraining(j,false);
+            }
+        for(int j=0;j<numLayers;++j){
+            dn.setLayerIsTraining(j,true);
+            dn.doDestin(csTrain.getGrayImageFloat());
+            }
+        for(int j=0;j<2;++j){
+            //dn.setLayerIsTraining(j,true);
+            dn.doDestin(csTrain.getGrayImageFloat());
+            }
 
     }
 
-    network->save("treeminer.dst");
-    #else
-    network->load("treeminer.dst");
-    #endif
-/*-----------------------------------------------test---------------------------------------------------*/
-    //  Destin * dn = network->getNetwork();
-    for(int i=1;i<10;i++){
-        stringstream ss;
-        string str;
-        ss<<i+1;
-        ss>>str;
-        string name2="/home/opencog/Desktop/Min/0/0/"+str+".png";
-        ImageSouceImpl test;
-        test.addImage(name2);
-        for(int i=0;i<10;i++)
-        {
-            test.findNextImage();
-            network->TestDestin(test.getGrayImageFloat());
-        }
-        char name1[256];
-        sprintf(name1, "/home/opencog/Desktop/Min/0/1/destin_%d.txt", frameCount);
-        ofstream outfile(name1,ofstream::out|ofstream::app);
-        if(!outfile)
-        {
-            cerr<<"open train.txt erro!"<<endl;
-            exit(1);
-        }
-        Node * n = network->getNode(2, 0, 0);
-        std::stringstream ss1;
-        std::string str1;
-        outfile<<";;"<<endl;
-    for(int i = 0; i < n->nb ; i++){
-            outfile<<n->pBelief[i]<<",";
-        printf("%f ", n->pBelief[i]);
-        }
-    n = network->getNode(2, 0, 1);
-    for(int i = 0; i < n->nb ; i++){
-            outfile<<n->pBelief[i]<<",";
-        printf("%f ", n->pBelief[i]);
-        }
-    n = network->getNode(2,1, 0);
-    for(int i = 0; i < n->nb ; i++){
-            outfile<<n->pBelief[i]<<",";
-        printf("%f ", n->pBelief[i]);
-        }
-    n = network->getNode(2, 1, 1);
-    for(int i = 0; i < n->nb ; i++){
-            outfile<<n->pBelief[i]<<",";
-        printf("%f ", n->pBelief[i]);
-        }
 
-    //outfile.put(network->printNodeBeliefs(7,0,0));
-    outfile.close();
+/*-----------------------------------------------Testing/Dumping Beliefs to a File  ---------------------------------------------------*/
+    //  Destin * dn = network->getNetwork();
+    for(int j=0;j<numLayers;j++){
+      dn.setLayerIsTraining(j,false);
         }
+    for(int i=1;i<maxCount;++i){
+        // Show DestinImage(i)
+    csTest.setCurrentImage(i);
+    dn.clearBeliefs();
+   // be.wr
+
+
+    }
+
 
     printf("Here We come to the end \n");
     return 0;
