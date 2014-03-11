@@ -33,7 +33,7 @@ int main(int argc, char ** argv)
         isi.addImage(name);
    } */
 /*-----------------------------------------initialization-------------------------------------------------*/
-        uint centroid_counts[]  = {16,8,4,1};
+        uint centroid_counts[]  = {16,8,8,8};
         uint numLayers=4;
         bool isUniform = true;
         int size = 32*32;
@@ -96,16 +96,20 @@ int main(int argc, char ** argv)
 /*-----------------------------------------------Testing/Dumping Beliefs to a File  ---------------------------------------------------*/
     //  Destin * dn = network->getNetwork();
     for(int j=0;j<numLayers;j++){
-      dn.setLayerIsTraining(j,false);
+        dn.setLayerIsTraining(j,false);
         }
+    string FileName="TestBeliefs";
+    be.CreateFile(FileName);
     for(int i=1;i<maxCount;++i){
         // Show DestinImage(i)
-    csTest.setCurrentImage(i);
-    dn.clearBeliefs();
-   // be.wr
+        csTest.setCurrentImage(i);
+        dn.clearBeliefs();
+        for(int j=0;j<numLayers;++j){
+            dn.doDestin(csTest.getGrayImageFloat());
+            }
+        be.DumpBeliefs(FileName);
 
-
-    }
+        }
 
 
     printf("Here We come to the end \n");

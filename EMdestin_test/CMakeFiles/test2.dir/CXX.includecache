@@ -13,6 +13,8 @@ DestinNetworkAlt.h
 /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/DestinNetworkAlt.h
 stdexcept
 -
+string
+-
 
 /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/CifarSource.h
 string
