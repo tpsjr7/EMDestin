@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="CMakeFiles">
+        <df name="CMakeTmp">
+          <df name="CMakeFiles">
+            <df name="cmTryCompileExec.dir">
+            </df>
+          </df>
+        </df>
+        <df name="CompilerIdC">
+          <in>CMakeCCompilerId.c</in>
+        </df>
+        <df name="CompilerIdCXX">
+          <in>CMakeCXXCompilerId.cpp</in>
+        </df>
+      </df>
+      <df name="Common">
+        <df name="CMakeFiles">
+          <df name="CMakeTmp">
+            <df name="CMakeFiles">
+              <df name="cmTryCompileExec.dir">
+              </df>
+            </df>
+          </df>
+          <df name="common.dir">
+          </df>
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+          <df name="testCifarSource.dir">
+          </df>
+          <df name="testDestinNetworkAlt.dir">
+          </df>
+        </df>
+        <in>BeliefExporter.h</in>
+        <in>CifarSource.h</in>
+        <in>CztMod.h</in>
+        <in>DestinIterationFinishedCallback.h</in>
+        <in>DestinNetworkAlt.cpp</in>
+        <in>DestinNetworkAlt.h</in>
+        <in>INetwork.h</in>
+        <in>ImageSourceBase.h</in>
+        <in>ImageSourceImpl.h</in>
+        <in>TestCifar.cpp</in>
+        <in>TestDestinNetworkAlt.cpp</in>
+        <in>Transporter.h</in>
+        <in>VideoSource.cpp</in>
+        <in>VideoSource.h</in>
+        <in>belief_transform.h</in>
+        <in>cent_image_gen.h</in>
+        <in>destin.h</in>
+        <in>destin_wrapper.h</in>
+        <in>em.h</in>
+        <in>learn_strats.h</in>
+        <in>macros.h</in>
+        <in>node.h</in>
+        <in>unit_test.h</in>
+      </df>
+      <df name="EMDestin">
+        <df name="bin">
+        </df>
+        <df name="CMakeFiles">
+          <df name="CMakeTmp">
+            <df name="CMakeFiles">
+              <df name="cmTryCompileExec.dir">
+              </df>
+            </df>
+          </df>
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+          <df name="destin.dir">
+            <df name="src">
+            </df>
+          </df>
+          <df name="destinalt.dir">
+            <df name="src">
+            </df>
+          </df>
+          <df name="destinalt_test.dir">
+            <df name="src">
+            </df>
+          </df>
+          <df name="Progress">
+          </df>
+          <df name="test.dir">
+            <df name="test">
+            </df>
+          </df>
+        </df>
+        <df name="include">
+          <in>belief_transform.h</in>
+          <in>cent_image_gen.h</in>
+          <in>destin.h</in>
+          <in>destin_wrapper.h</in>
+          <in>em.h</in>
+          <in>learn_strats.h</in>
+          <in>macros.h</in>
+          <in>node.h</in>
+        </df>
+        <df name="src">
+          <in>belief_transform.cpp</in>
+          <in>cent_image_gen.cpp</in>
+          <in>destin.cpp</in>
+          <in>destin_mnist.cpp</in>
+          <in>em.cpp</in>
+          <in>learn_strats.cpp</in>
+          <in>node.cpp</in>
+          <in>util.cpp</in>
+          <in>visualize.cpp</in>
+        </df>
+        <df name="test">
+          <in>test.cpp</in>
+        </df>
+      </df>
+      <df name="EMdestin_test">
+        <df name="CMakeFiles">
+          <df name="CMakeTmp">
+            <df name="CMakeFiles">
+              <df name="cmTryCompileExec.dir">
+              </df>
+            </df>
+          </df>
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+          <df name="Progress">
+          </df>
+          <df name="stereovision.dir">
+            <df name="src">
+            </df>
+          </df>
+          <df name="test1.dir">
+            <df name="src">
+            </df>
+          </df>
+          <df name="test2.dir">
+            <df name="src">
+            </df>
+          </df>
+        </df>
+        <df name="include">
+          <in>VideoSource.cpp</in>
+          <in>VideoSource.h</in>
+          <in>stereocamera.h</in>
+          <in>stereovision.h</in>
+        </df>
+        <df name="src">
+          <in>BeliefExporter.h</in>
+          <in>CifarSource.h</in>
+          <in>CztMod.h</in>
+          <in>DestinIterationFinishedCallback.h</in>
+          <in>DestinNetworkAlt.cpp</in>
+          <in>DestinNetworkAlt.h</in>
+          <in>INetwork.h</in>
+          <in>ImageSourceBase.h</in>
+          <in>ImageSourceImpl.h</in>
+          <in>TestCifar.cpp</in>
+          <in>TestDestinNetworkAlt.cpp</in>
+          <in>TestEMDestin.cpp</in>
+          <in>Transporter.h</in>
+          <in>VideoSource.cpp</in>
+          <in>VideoSource.h</in>
+          <in>belief_transform.h</in>
+          <in>cent_image_gen.h</in>
+          <in>destin.h</in>
+          <in>destin_wrapper.h</in>
+          <in>em.h</in>
+          <in>learn_strats.h</in>
+          <in>macros.h</in>
+          <in>node.h</in>
+          <in>stereocamera.cpp</in>
+          <in>stereocamera.h</in>
+          <in>stereovision.cpp</in>
+          <in>stereovision.h</in>
+          <in>teddy.cpp</in>
+          <in>test2.cpp</in>
+          <in>unit_test.h</in>
+        </df>
+        <in>WebcamExp1.cpp</in>
+      </df>
+      <df name="qtcreator-build">
+        <df name="CMakeFiles">
+          <df name="CMakeTmp">
+            <df name="CMakeFiles">
+              <df name="cmTryCompileExec.dir">
+              </df>
+            </df>
+          </df>
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+          <df name="Progress">
+          </df>
+          <df name="stereovision.dir">
+            <df name="src">
+            </df>
+          </df>
+          <df name="test2.dir">
+            <df name="src">
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="SOM">
+        <df name="cluster">
+          <df name="data">
+          </df>
+          <df name="doc">
+          </df>
+          <df name="example">
+            <in>example.c</in>
+          </df>
+          <df name="html">
+            <df name="images">
+            </df>
+          </df>
+          <df name="mac">
+            <df name="Cluster.xcodeproj">
+            </df>
+            <df name="English.lproj">
+              <df name="AboutPanel.nib">
+              </df>
+              <df name="FileFormatPanel.nib">
+              </df>
+              <df name="MainMenu.nib">
+              </df>
+            </df>
+            <in>Controller.h</in>
+            <in>Controller.m</in>
+            <in>main.m</in>
+          </df>
+          <df name="perl">
+            <df name="examples">
+            </df>
+            <df name="t">
+            </df>
+          </df>
+          <df name="python">
+            <df name="test">
+            </df>
+            <in>clustermodule.c</in>
+          </df>
+          <df name="src">
+            <in>cluster.c</in>
+            <in>cluster.h</in>
+            <in>command.c</in>
+            <in>command.h</in>
+            <in>data.c</in>
+            <in>data.h</in>
+            <in>gui.h</in>
+            <in>main.c</in>
+          </df>
+          <df name="windows">
+            <in>gui.c</in>
+            <in>main.c</in>
+            <in>resources.h</in>
+          </df>
+          <df name="X11">
+            <in>gui.c</in>
+          </df>
+        </df>
+        <df name="CMakeFiles">
+          <df name="som.dir">
+            <df name="cluster">
+              <df name="src">
+              </df>
+            </df>
+          </df>
+          <df name="testSOM.dir">
+          </df>
+        </df>
+        <in>ClusterSom.h</in>
+        <in>ISom.h</in>
+        <in>SomPresentor.h</in>
+        <in>TestSom.cpp</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

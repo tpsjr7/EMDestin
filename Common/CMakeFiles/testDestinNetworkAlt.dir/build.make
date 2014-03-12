@@ -53,15 +53,15 @@ Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o: Common/CM
 Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o: Common/TestDestinNetworkAlt.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp
 
 Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp > CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp > CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.i
 
 Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp -o CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp -o CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.s
 
 Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o.requires:
 .PHONY : Common/CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o.requires

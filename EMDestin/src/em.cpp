@@ -65,7 +65,7 @@ namespace ker
         float pdfTmp2;
         pdfTmp1 = y - mu;
 	if(det(sigma)!=0)    
-        pdfTmp2 =det( trans(pdfTmp1) * inv(sigma)*pdfTmp1);
+        pdfTmp2 =det( trans(pdfTmp1) * pinv(sigma)*pdfTmp1);
 	else pdfTmp2 =det( trans(pdfTmp1) * pinv(sigma)*pdfTmp1);
          float lfTmp1 = 0;       
         lfTmp1 = pdfTmp2/-2.0;
@@ -98,10 +98,10 @@ namespace ker
 				   
              }
 	     if(lfTmp<CONST_E)lfTmp=0.001;
-             float lfG = Gaussian(samlple, Mu.col(j), Sigma.slice(j));
+             float lfG = float(Gaussian(samlple, Mu.col(j), Sigma.slice(j)));
              _pdfZ[j] = _pdfPi[j] * lfG / lfTmp;//the probability of input which is belong to a certain centroid
 	     if(_pdfZ[j]<CONST_E)_pdfZ[j]=0.000001;
-	    //if(_pdfZ[j]==datum::nan)_pdfZ[j]=1;
+	    if(_pdfZ[j]!=_pdfZ[j])_pdfZ[j]=1;
 	//lfSum += _pdfPi[i][j] * lfG;
          }
          // _lfL += log(lfSum);
@@ -124,8 +124,8 @@ namespace ker
 			float _tempdfPi=_pdfPi[j];
 			_pdfPi[j]=Eta(i)*_pdfZ[j]+(1-Eta(i))*_tempdfPi;
 			if(_pdfPi[j]<CONST_E)_pdfPi[j]=0.001;
-			//if(_pdfZ[j]==datum::nan)_pdfZ[j]=1;
-			//if(_pdfPi[j]==datum::nan)_pdfPi[j]=1;
+			if(_pdfZ[j]!=_pdfZ[j])_pdfZ[j]=float(1);
+			if(_pdfPi[j]!=_pdfPi[j])_pdfPi[j]=float(1);
 			/*
 			Based on algorithm of stepwise online EM,the updated parameter for each observertion.choose the interpolation between new parameter and old parameter 
 
@@ -160,3 +160,4 @@ namespace ker
        
     }
 }
+//

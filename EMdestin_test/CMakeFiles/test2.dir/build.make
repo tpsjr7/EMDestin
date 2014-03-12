@@ -53,15 +53,15 @@ EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.o: EMdestin_test/CMakeFiles/tes
 EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.o: EMdestin_test/src/test2.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test2.dir/src/test2.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/test2.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test2.dir/src/test2.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/test2.cpp
 
 EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test2.dir/src/test2.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/test2.cpp > CMakeFiles/test2.dir/src/test2.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/test2.cpp > CMakeFiles/test2.dir/src/test2.cpp.i
 
 EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test2.dir/src/test2.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/test2.cpp -o CMakeFiles/test2.dir/src/test2.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/test2.cpp -o CMakeFiles/test2.dir/src/test2.cpp.s
 
 EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.o.requires:
 .PHONY : EMdestin_test/CMakeFiles/test2.dir/src/test2.cpp.o.requires

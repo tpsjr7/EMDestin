@@ -53,15 +53,15 @@ Common/CMakeFiles/common.dir/DestinNetworkAlt.cpp.o: Common/CMakeFiles/common.di
 Common/CMakeFiles/common.dir/DestinNetworkAlt.cpp.o: Common/DestinNetworkAlt.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Common/CMakeFiles/common.dir/DestinNetworkAlt.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/DestinNetworkAlt.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinNetworkAlt.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/DestinNetworkAlt.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinNetworkAlt.cpp
 
 Common/CMakeFiles/common.dir/DestinNetworkAlt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/DestinNetworkAlt.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinNetworkAlt.cpp > CMakeFiles/common.dir/DestinNetworkAlt.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinNetworkAlt.cpp > CMakeFiles/common.dir/DestinNetworkAlt.cpp.i
 
 Common/CMakeFiles/common.dir/DestinNetworkAlt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/DestinNetworkAlt.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinNetworkAlt.cpp -o CMakeFiles/common.dir/DestinNetworkAlt.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinNetworkAlt.cpp -o CMakeFiles/common.dir/DestinNetworkAlt.cpp.s
 
 Common/CMakeFiles/common.dir/DestinNetworkAlt.cpp.o.requires:
 .PHONY : Common/CMakeFiles/common.dir/DestinNetworkAlt.cpp.o.requires
@@ -76,15 +76,15 @@ Common/CMakeFiles/common.dir/VideoSource.cpp.o: Common/CMakeFiles/common.dir/fla
 Common/CMakeFiles/common.dir/VideoSource.cpp.o: Common/VideoSource.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Common/CMakeFiles/common.dir/VideoSource.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/VideoSource.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/VideoSource.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.cpp
 
 Common/CMakeFiles/common.dir/VideoSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/VideoSource.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.cpp > CMakeFiles/common.dir/VideoSource.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.cpp > CMakeFiles/common.dir/VideoSource.cpp.i
 
 Common/CMakeFiles/common.dir/VideoSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/VideoSource.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.cpp -o CMakeFiles/common.dir/VideoSource.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.cpp -o CMakeFiles/common.dir/VideoSource.cpp.s
 
 Common/CMakeFiles/common.dir/VideoSource.cpp.o.requires:
 .PHONY : Common/CMakeFiles/common.dir/VideoSource.cpp.o.requires

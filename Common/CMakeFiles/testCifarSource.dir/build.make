@@ -53,15 +53,15 @@ Common/CMakeFiles/testCifarSource.dir/TestCifar.cpp.o: Common/CMakeFiles/testCif
 Common/CMakeFiles/testCifarSource.dir/TestCifar.cpp.o: Common/TestCifar.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Common/CMakeFiles/testCifarSource.dir/TestCifar.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testCifarSource.dir/TestCifar.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestCifar.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testCifarSource.dir/TestCifar.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestCifar.cpp
 
 Common/CMakeFiles/testCifarSource.dir/TestCifar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCifarSource.dir/TestCifar.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestCifar.cpp > CMakeFiles/testCifarSource.dir/TestCifar.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestCifar.cpp > CMakeFiles/testCifarSource.dir/TestCifar.cpp.i
 
 Common/CMakeFiles/testCifarSource.dir/TestCifar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCifarSource.dir/TestCifar.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestCifar.cpp -o CMakeFiles/testCifarSource.dir/TestCifar.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/Common && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestCifar.cpp -o CMakeFiles/testCifarSource.dir/TestCifar.cpp.s
 
 Common/CMakeFiles/testCifarSource.dir/TestCifar.cpp.o.requires:
 .PHONY : Common/CMakeFiles/testCifarSource.dir/TestCifar.cpp.o.requires

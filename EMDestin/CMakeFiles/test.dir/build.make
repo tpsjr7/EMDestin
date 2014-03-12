@@ -53,15 +53,15 @@ EMDestin/CMakeFiles/test.dir/test/test.cpp.o: EMDestin/CMakeFiles/test.dir/flags
 EMDestin/CMakeFiles/test.dir/test/test.cpp.o: EMDestin/test/test.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMDestin/CMakeFiles/test.dir/test/test.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/test/test.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test.dir/test/test.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test.cpp
 
 EMDestin/CMakeFiles/test.dir/test/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/test/test.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test.cpp > CMakeFiles/test.dir/test/test.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test.cpp > CMakeFiles/test.dir/test/test.cpp.i
 
 EMDestin/CMakeFiles/test.dir/test/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/test/test.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test.cpp -o CMakeFiles/test.dir/test/test.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test.cpp -o CMakeFiles/test.dir/test/test.cpp.s
 
 EMDestin/CMakeFiles/test.dir/test/test.cpp.o.requires:
 .PHONY : EMDestin/CMakeFiles/test.dir/test/test.cpp.o.requires

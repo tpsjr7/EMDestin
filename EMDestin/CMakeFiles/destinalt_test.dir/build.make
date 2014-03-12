@@ -53,15 +53,15 @@ EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.o: EMDestin/CMakeFiles/des
 EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.o: EMDestin/src/destin.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/destin.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/destin.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/destinalt_test.dir/src/destin.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp > CMakeFiles/destinalt_test.dir/src/destin.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp > CMakeFiles/destinalt_test.dir/src/destin.cpp.i
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/destinalt_test.dir/src/destin.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp -o CMakeFiles/destinalt_test.dir/src/destin.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp -o CMakeFiles/destinalt_test.dir/src/destin.cpp.s
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.o.requires:
 .PHONY : EMDestin/CMakeFiles/destinalt_test.dir/src/destin.cpp.o.requires
@@ -76,15 +76,15 @@ EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.o: EMDestin/CMakeFiles/desti
 EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.o: EMDestin/src/node.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/node.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/node.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/destinalt_test.dir/src/node.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp > CMakeFiles/destinalt_test.dir/src/node.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp > CMakeFiles/destinalt_test.dir/src/node.cpp.i
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/destinalt_test.dir/src/node.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp -o CMakeFiles/destinalt_test.dir/src/node.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp -o CMakeFiles/destinalt_test.dir/src/node.cpp.s
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.o.requires:
 .PHONY : EMDestin/CMakeFiles/destinalt_test.dir/src/node.cpp.o.requires
@@ -99,15 +99,15 @@ EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.o: EMDestin/CMakeFiles/desti
 EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.o: EMDestin/src/util.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/util.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/util.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/destinalt_test.dir/src/util.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp > CMakeFiles/destinalt_test.dir/src/util.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp > CMakeFiles/destinalt_test.dir/src/util.cpp.i
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/destinalt_test.dir/src/util.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp -o CMakeFiles/destinalt_test.dir/src/util.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp -o CMakeFiles/destinalt_test.dir/src/util.cpp.s
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.o.requires:
 .PHONY : EMDestin/CMakeFiles/destinalt_test.dir/src/util.cpp.o.requires
@@ -122,15 +122,15 @@ EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o: EMDestin/CMakeF
 EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o: EMDestin/src/cent_image_gen.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp > CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp > CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.i
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp -o CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp -o CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.s
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o.requires:
 .PHONY : EMDestin/CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o.requires
@@ -145,15 +145,15 @@ EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.o: EMDestin/CMakeFiles/destina
 EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.o: EMDestin/src/em.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/em.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/em.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/destinalt_test.dir/src/em.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp > CMakeFiles/destinalt_test.dir/src/em.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp > CMakeFiles/destinalt_test.dir/src/em.cpp.i
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/destinalt_test.dir/src/em.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp -o CMakeFiles/destinalt_test.dir/src/em.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp -o CMakeFiles/destinalt_test.dir/src/em.cpp.s
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.o.requires:
 .PHONY : EMDestin/CMakeFiles/destinalt_test.dir/src/em.cpp.o.requires
@@ -168,15 +168,15 @@ EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o: EMDestin/CMakeFil
 EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o: EMDestin/src/learn_strats.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp > CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp > CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.i
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp -o CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp -o CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.s
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o.requires:
 .PHONY : EMDestin/CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o.requires
@@ -191,15 +191,15 @@ EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o: EMDestin/CMak
 EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o: EMDestin/src/belief_transform.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp > CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp > CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.i
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp -o CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp -o CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.s
 
 EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o.requires:
 .PHONY : EMDestin/CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o.requires

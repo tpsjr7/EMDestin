@@ -53,15 +53,15 @@ SOM/CMakeFiles/testSOM.dir/TestSom.cpp.o: SOM/CMakeFiles/testSOM.dir/flags.make
 SOM/CMakeFiles/testSOM.dir/TestSom.cpp.o: SOM/TestSom.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object SOM/CMakeFiles/testSOM.dir/TestSom.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/SOM && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testSOM.dir/TestSom.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/SOM/TestSom.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/SOM && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testSOM.dir/TestSom.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/SOM/TestSom.cpp
 
 SOM/CMakeFiles/testSOM.dir/TestSom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testSOM.dir/TestSom.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/SOM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/SOM/TestSom.cpp > CMakeFiles/testSOM.dir/TestSom.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/SOM && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/SOM/TestSom.cpp > CMakeFiles/testSOM.dir/TestSom.cpp.i
 
 SOM/CMakeFiles/testSOM.dir/TestSom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testSOM.dir/TestSom.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/SOM && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/SOM/TestSom.cpp -o CMakeFiles/testSOM.dir/TestSom.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/SOM && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/SOM/TestSom.cpp -o CMakeFiles/testSOM.dir/TestSom.cpp.s
 
 SOM/CMakeFiles/testSOM.dir/TestSom.cpp.o.requires:
 .PHONY : SOM/CMakeFiles/testSOM.dir/TestSom.cpp.o.requires

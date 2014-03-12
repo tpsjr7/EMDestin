@@ -77,7 +77,7 @@ public:
         float *beliefs= getBeliefs();
         uint size = getOutputSize();
         for (int ii = 0; ii < size; ii++){
-            fprintf(FID, "%.9f\t", beliefs[ii]);
+            fprintf(FID, "%f\t", beliefs[ii]);
         }
         fprintf(FID, "\n");
 

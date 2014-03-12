@@ -53,15 +53,15 @@ EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.o: EMDestin/CMakeFiles/desti
 EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.o: EMDestin/src/destin_mnist.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.o"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destin.dir/src/destin_mnist.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin_mnist.cpp
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/destin.dir/src/destin_mnist.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin_mnist.cpp
 
 EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/destin.dir/src/destin_mnist.cpp.i"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin_mnist.cpp > CMakeFiles/destin.dir/src/destin_mnist.cpp.i
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin_mnist.cpp > CMakeFiles/destin.dir/src/destin_mnist.cpp.i
 
 EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/destin.dir/src/destin_mnist.cpp.s"
-	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin_mnist.cpp -o CMakeFiles/destin.dir/src/destin_mnist.cpp.s
+	cd /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin_mnist.cpp -o CMakeFiles/destin.dir/src/destin_mnist.cpp.s
 
 EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.o.requires:
 .PHONY : EMDestin/CMakeFiles/destin.dir/src/destin_mnist.cpp.o.requires
