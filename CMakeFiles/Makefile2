@@ -145,8 +145,8 @@ clean: Common/CMakeFiles/testCifarSource.dir/clean
 # Target rules for target Common/CMakeFiles/testDestinNetworkAlt.dir
 
 # All Build rule for target.
-Common/CMakeFiles/testDestinNetworkAlt.dir/all: EMDestin/CMakeFiles/destinalt.dir/all
 Common/CMakeFiles/testDestinNetworkAlt.dir/all: Common/CMakeFiles/common.dir/all
+Common/CMakeFiles/testDestinNetworkAlt.dir/all: EMDestin/CMakeFiles/destinalt.dir/all
 	$(MAKE) -f Common/CMakeFiles/testDestinNetworkAlt.dir/build.make Common/CMakeFiles/testDestinNetworkAlt.dir/depend
 	$(MAKE) -f Common/CMakeFiles/testDestinNetworkAlt.dir/build.make Common/CMakeFiles/testDestinNetworkAlt.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  24
@@ -481,10 +481,10 @@ clean: EMdestin_test/CMakeFiles/stereovision.dir/clean
 # Target rules for target EMdestin_test/CMakeFiles/test2.dir
 
 # All Build rule for target.
-EMdestin_test/CMakeFiles/test2.dir/all: EMdestin_test/CMakeFiles/stereovision.dir/all
-EMdestin_test/CMakeFiles/test2.dir/all: EMDestin/CMakeFiles/destinalt.dir/all
 EMdestin_test/CMakeFiles/test2.dir/all: Common/CMakeFiles/common.dir/all
 EMdestin_test/CMakeFiles/test2.dir/all: SOM/CMakeFiles/som.dir/all
+EMdestin_test/CMakeFiles/test2.dir/all: EMDestin/CMakeFiles/destinalt.dir/all
+EMdestin_test/CMakeFiles/test2.dir/all: EMdestin_test/CMakeFiles/stereovision.dir/all
 	$(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/depend
 	$(MAKE) -f EMdestin_test/CMakeFiles/test2.dir/build.make EMdestin_test/CMakeFiles/test2.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/opencog/Desktop/Min/EM-DeSTIN/CMakeFiles  22

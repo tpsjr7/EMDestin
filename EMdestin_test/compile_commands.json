@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test",
+  "command": "/usr/bin/g++   -Dstereovision_EXPORTS -g3 -gdwarf-2 -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../Common -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../DavisDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../SOM    -o CMakeFiles/stereovision.dir/src/stereovision.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereovision.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereovision.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test",
+  "command": "/usr/bin/g++   -Dstereovision_EXPORTS -g3 -gdwarf-2 -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../Common -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../DavisDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../SOM    -o CMakeFiles/stereovision.dir/src/stereocamera.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereocamera.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereocamera.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test",
+  "command": "/usr/bin/g++    -g3 -gdwarf-2 -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../Common -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../DavisDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../SOM    -o CMakeFiles/test2.dir/src/test2.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/test2.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/test2.cpp"
+}
+]

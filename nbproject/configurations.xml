@@ -66,7 +66,7 @@
           <buildCommandWorkingDir>.</buildCommandWorkingDir>
           <buildCommand>${MAKE} -f Makefile</buildCommand>
           <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
-          <executablePath>CMakeFiles/CMakeDetermineCompilerABI_CXX.bin</executablePath>
+          <executablePath></executablePath>
           <cTool>
             <incDir>
               <pElem>/usr/include/opencv</pElem>
@@ -89,7 +89,7 @@
           </ccTool>
         </makeTool>
       </makefileType>
-      <item path="Common/DestinNetworkAlt.cpp" ex="false" tool="1" flavor2="4">
+      <item path="Common/DestinNetworkAlt.cpp" ex="false" tool="1" flavor2="0">
         <ccTool>
           <preprocessorList>
             <Elem>__PIC__=2</Elem>
@@ -98,15 +98,11 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="Common/TestCifar.cpp" ex="false" tool="1" flavor2="4">
-        <ccTool>
-        </ccTool>
+      <item path="Common/TestCifar.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Common/TestDestinNetworkAlt.cpp" ex="false" tool="1" flavor2="4">
-        <ccTool>
-        </ccTool>
+      <item path="Common/TestDestinNetworkAlt.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Common/VideoSource.cpp" ex="false" tool="1" flavor2="4">
+      <item path="Common/VideoSource.cpp" ex="false" tool="1" flavor2="0">
         <ccTool>
           <preprocessorList>
             <Elem>__PIC__=2</Elem>
@@ -115,7 +111,7 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="EMDestin/src/belief_transform.cpp" ex="false" tool="1" flavor2="4">
+      <item path="EMDestin/src/belief_transform.cpp" ex="false" tool="1" flavor2="0">
         <ccTool>
           <preprocessorList>
             <Elem>UNIT_TEST</Elem>
@@ -125,7 +121,7 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="EMDestin/src/cent_image_gen.cpp" ex="false" tool="1" flavor2="4">
+      <item path="EMDestin/src/cent_image_gen.cpp" ex="false" tool="1" flavor2="0">
         <ccTool>
           <preprocessorList>
             <Elem>UNIT_TEST</Elem>
@@ -135,7 +131,7 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="EMDestin/src/destin.cpp" ex="false" tool="1" flavor2="4">
+      <item path="EMDestin/src/destin.cpp" ex="false" tool="1" flavor2="0">
         <ccTool>
           <preprocessorList>
             <Elem>UNIT_TEST</Elem>
@@ -145,9 +141,7 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="EMDestin/src/destin_mnist.cpp" ex="false" tool="1" flavor2="4">
-        <ccTool>
-        </ccTool>
+      <item path="EMDestin/src/destin_mnist.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="EMDestin/src/em.cpp" ex="false" tool="1" flavor2="0">
         <ccTool>
@@ -159,7 +153,7 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="EMDestin/src/learn_strats.cpp" ex="false" tool="1" flavor2="4">
+      <item path="EMDestin/src/learn_strats.cpp" ex="false" tool="1" flavor2="0">
         <ccTool>
           <preprocessorList>
             <Elem>UNIT_TEST</Elem>
@@ -169,7 +163,7 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="EMDestin/src/node.cpp" ex="false" tool="1" flavor2="4">
+      <item path="EMDestin/src/node.cpp" ex="false" tool="1" flavor2="0">
         <ccTool>
           <preprocessorList>
             <Elem>UNIT_TEST</Elem>
@@ -179,7 +173,7 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="EMDestin/src/util.cpp" ex="false" tool="1" flavor2="4">
+      <item path="EMDestin/src/util.cpp" ex="false" tool="1" flavor2="0">
         <ccTool>
           <preprocessorList>
             <Elem>UNIT_TEST</Elem>
@@ -189,11 +183,9 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="EMDestin/test/test.cpp" ex="false" tool="1" flavor2="4">
-        <ccTool>
-        </ccTool>
+      <item path="EMDestin/test/test.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="EMdestin_test/src/stereocamera.cpp" ex="false" tool="1" flavor2="4">
+      <item path="EMdestin_test/src/stereocamera.cpp" ex="false" tool="1" flavor2="0">
         <ccTool>
           <preprocessorList>
             <Elem>__PIC__=2</Elem>
@@ -202,7 +194,7 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="EMdestin_test/src/stereovision.cpp" ex="false" tool="1" flavor2="4">
+      <item path="EMdestin_test/src/stereovision.cpp" ex="false" tool="1" flavor2="0">
         <ccTool>
           <preprocessorList>
             <Elem>__PIC__=2</Elem>
@@ -211,17 +203,11 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="EMdestin_test/src/test2.cpp" ex="false" tool="1" flavor2="4">
-        <ccTool>
-        </ccTool>
+      <item path="EMdestin_test/src/test2.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="SOM/TestSom.cpp" ex="false" tool="1" flavor2="4">
-        <ccTool>
-        </ccTool>
+      <item path="SOM/TestSom.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="SOM/cluster/src/cluster.c" ex="false" tool="0" flavor2="2">
-        <cTool>
-        </cTool>
+      <item path="SOM/cluster/src/cluster.c" ex="false" tool="0" flavor2="0">
       </item>
       <folder path="0/Common">
         <ccTool>

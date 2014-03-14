@@ -51,7 +51,7 @@ int main(int argc, char ** argv)
             dn.setPreviousBeliefDamping(0);
             int maxCount =10000;
             int bottom_belief_layer=0;
-
+     //printf("After Initialization \n");
     /*----------------------------------------------training---------------------------------------*/
         BeliefExporter be(dn,bottom_belief_layer);
         int iterations_per_image=8;
@@ -68,29 +68,35 @@ int main(int argc, char ** argv)
         csTrain.setClassIsEnabled(7,isEnabled);
         csTrain.setClassIsEnabled(8,isEnabled);
         csTrain.setClassIsEnabled(9,isEnabled);
+        //printf("After Initialization Two\n");
        // csTrain.setClassIsEnabled();
        // csTest.setClassIsEnabled();
         //for(int i=0;i<maxCount;++i){
+        int i=0;
         for(int i=0;i<maxCount;++i){
-            if (i%100==0){
-                printf("Iteration Number %d \n",i);
-            }
+        //while(i<3){
+            //if (i%2==0)
+              //printf("Iteration Number: %d \n",i);
+           
             csTrain.findNextImage();
             dn.clearBeliefs();
-            for(int j=0;j<numLayers;++j){
-                dn.setLayerIsTraining(j,false);
+            for(int j   =0;j<numLayers;++j){
+                dn.setLayerIsTraining(j,false);//now
                 }
             for(int j=0;j<numLayers;++j){
                 dn.setLayerIsTraining(j,true);
                 dn.doDestin(csTrain.getGrayImageFloat());
                 }
-            for(int j=0;j<2;++j){
-                //dn.setLayerIsTraining(j,true);
-                dn.doDestin(csTrain.getGrayImageFloat());
-                }
+            //string FileName="TestBeliefs.txt";
+            //be.CreateFile(FileName);
+            //be.DumpBeliefs(FileName);
+           for(int j=0;j<2;++j){
+               dn.setLayerIsTraining(j,true);
+               dn.doDestin(csTrain.getGrayImageFloat());
+           }
+            i++;
 
         }
-
 
     /*-----------------------------------------------Testing/Dumping Beliefs to a File  ---------------------------------------------------*/
         //  Destin * dn = network->getNetwork();
@@ -99,6 +105,7 @@ int main(int argc, char ** argv)
             }
         string FileName="TestBeliefs.txt";
         be.CreateFile(FileName);
+        //printf("After Initialization Three\n");
         for(int i=1;i<maxCount;++i){
             // Show DestinImage(i)
             csTest.setCurrentImage(i);
@@ -106,6 +113,8 @@ int main(int argc, char ** argv)
             for(int j=0;j<numLayers;++j){
                 dn.doDestin(csTest.getGrayImageFloat());
                 }
+        //printf("After Initialization Four \n");
+            
             be.DumpBeliefs(FileName);
 
             }
@@ -113,5 +122,4 @@ int main(int argc, char ** argv)
 
     printf("Here We come to the end \n");
     return 0;
-
 }

@@ -1,0 +1,127 @@
+[
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/Common",
+  "command": "/usr/bin/g++   -Dcommon_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/zhangzinan/destin_ted_temp/Destin/EMDestin/include    -o CMakeFiles/common.dir/DestinNetworkAlt.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinNetworkAlt.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/Common/DestinNetworkAlt.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/Common",
+  "command": "/usr/bin/g++   -Dcommon_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/zhangzinan/destin_ted_temp/Destin/EMDestin/include    -o CMakeFiles/common.dir/VideoSource.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/Common/VideoSource.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/Common",
+  "command": "/usr/bin/g++    -O3 -DNDEBUG -I/usr/include/opencv -I/home/zhangzinan/destin_ted_temp/Destin/EMDestin/include    -o CMakeFiles/testCifarSource.dir/TestCifar.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestCifar.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/Common/TestCifar.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/Common",
+  "command": "/usr/bin/g++    -O3 -DNDEBUG -I/usr/include/opencv -I/home/zhangzinan/destin_ted_temp/Destin/EMDestin/include    -o CMakeFiles/testDestinNetworkAlt.dir/TestDestinNetworkAlt.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/Common/TestDestinNetworkAlt.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++    -O3 -DNDEBUG -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destin.dir/src/destin_mnist.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin_mnist.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin_mnist.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt.dir/src/destin.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt.dir/src/node.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt.dir/src/util.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt.dir/src/cent_image_gen.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt.dir/src/em.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt.dir/src/learn_strats.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt.dir/src/belief_transform.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_test_EXPORTS -DUNIT_TEST -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt_test.dir/src/destin.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/destin.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_test_EXPORTS -DUNIT_TEST -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt_test.dir/src/node.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/node.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_test_EXPORTS -DUNIT_TEST -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt_test.dir/src/util.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/util.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_test_EXPORTS -DUNIT_TEST -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt_test.dir/src/cent_image_gen.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/cent_image_gen.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_test_EXPORTS -DUNIT_TEST -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt_test.dir/src/em.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/em.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_test_EXPORTS -DUNIT_TEST -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt_test.dir/src/learn_strats.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/learn_strats.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++   -Ddestinalt_test_EXPORTS -DUNIT_TEST -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/destinalt_test.dir/src/belief_transform.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/src/belief_transform.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin",
+  "command": "/usr/bin/g++    -O3 -DNDEBUG -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/../Common    -o CMakeFiles/test.dir/test/test.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMDestin/test/test.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/SOM",
+  "command": "/usr/bin/gcc  -Dsom_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv    -o CMakeFiles/som.dir/cluster/src/cluster.c.o   -c /home/opencog/Desktop/Min/EM-DeSTIN/SOM/cluster/src/cluster.c",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/SOM/cluster/src/cluster.c"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/SOM",
+  "command": "/usr/bin/g++    -O3 -DNDEBUG -I/usr/include/opencv    -o CMakeFiles/testSOM.dir/TestSom.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/SOM/TestSom.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/SOM/TestSom.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test",
+  "command": "/usr/bin/g++   -Dstereovision_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../Common -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../DavisDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../SOM    -o CMakeFiles/stereovision.dir/src/stereovision.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereovision.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereovision.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test",
+  "command": "/usr/bin/g++   -Dstereovision_EXPORTS -O3 -DNDEBUG -fPIC -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../Common -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../DavisDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../SOM    -o CMakeFiles/stereovision.dir/src/stereocamera.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereocamera.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/stereocamera.cpp"
+},
+{
+  "directory": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test",
+  "command": "/usr/bin/g++    -O3 -DNDEBUG -I/usr/include/opencv -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../Common -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../DavisDestin/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/include -I/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/../SOM    -o CMakeFiles/test2.dir/src/test2.cpp.o -c /home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/test2.cpp",
+  "file": "/home/opencog/Desktop/Min/EM-DeSTIN/EMdestin_test/src/test2.cpp"
+}
+]
